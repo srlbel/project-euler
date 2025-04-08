@@ -16,7 +16,7 @@ mod tests {
 
     #[test]
     fn it_works() {
-        let result = multiples_of3_or5(49);
-        assert_eq!(result, 543);
+        let result = multiples_of3_or5(10);
+        assert_eq!(result, 23);
     }
 }
